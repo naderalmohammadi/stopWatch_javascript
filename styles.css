@@ -1,0 +1,45 @@
+#counters{ 
+    display: inline-flex;
+    font-size: 60px;
+    text-align: center;
+}
+#hours{
+    border-color: #000;
+    margin-right: 10px;
+    margin-bottom: 0;
+    padding: 30px;
+    width: 60px;
+    border-style: solid;
+    border-radius: 25%;
+}
+#minutes{
+    border-color: #000;
+    margin-right: 10px;
+    margin-bottom: 0;
+    padding: 30px;
+    width: 60px;
+    border-style: solid;
+    border-radius: 25%;
+}
+#seconds{
+    border-color: #000;
+    margin-bottom: 0;
+    padding: 30px;
+    width: 60px;
+    border-style: solid;
+    border-radius: 25%;
+}
+#start{
+    margin-right: 10px;
+    padding: 20px;
+    width: 120px;
+}
+#pause{
+    margin-right: 10px;
+    padding: 20px;
+    width: 120px;
+}
+#reset{
+    padding: 20px;
+    width: 120px;
+}

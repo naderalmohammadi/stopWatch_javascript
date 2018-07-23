@@ -1,17 +1,11 @@
-let hours = 0;
-let minutes = 0;
-let seconds = 0;
-
-document.getElementById("hours").innerHTML = hours;
 let hoursP = document.getElementById("hours");
-document.getElementById("minutes").innerHTML = minutes;
 let minutesP = document.getElementById("minutes");
-document.getElementById("seconds").innerHTML = seconds;
 let secondsP = document.getElementById("seconds");
 
 let startBtn = document.getElementById("start");
 let pauseBtn = document.getElementById("pause");
 let resetBtn = document.getElementById("reset");
+
 pauseBtn.disabled = true;
 
 let paused;
@@ -29,7 +23,7 @@ function start() {
              paused = false;
             if(secondsP.innerHTML == 60){
                 minutesP.innerHTML = parseInt(minutesP.innerHTML) + 1;
-                if(minutesP.innerHTML == 3){
+                if(minutesP.innerHTML == 60){
                     hoursP.innerHTML = parseInt(hoursP.innerHTML) + 1;
                     minutesP.innerHTML = 0;
                 }

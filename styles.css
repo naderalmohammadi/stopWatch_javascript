@@ -1,5 +1,5 @@
 #counters{ 
-    display: inline-flex;
+    display: flex;
     font-size: 60px;
     text-align: center;
 }
